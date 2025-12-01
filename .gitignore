@@ -1,0 +1,59 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# Others
+[Bb]in/
+[Oo]bj/
+*.userprefs
+*.pidb
+*.svclog
+*.user
+
+# Rider project settings
+*.sln.iml
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Local tools
+.local
+
+# Temporary files
+*.tmp
+*~
