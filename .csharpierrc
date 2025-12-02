@@ -1,0 +1,5 @@
+{
+  "$schema": "https://csharpier.com/schemas/configuration.json",
+  "lineWidth": 100,
+  "useTabs": false
+}
