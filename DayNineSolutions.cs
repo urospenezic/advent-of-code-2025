@@ -195,6 +195,7 @@ public class DayNineSolutions
 
     private static bool IsInsidePolygon(double x, double y, Point[] polygon)
     {
+        // ray casting algo to determine if a point is inside a polygon
         bool inside = false;
         int n = polygon.Length;
 
