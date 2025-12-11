@@ -5,12 +5,22 @@ public class Program
     public static void Main(string[] args)
     {
         var test = """
-[.##.] (3) (1,3) (2) (2,3) (0,2) (0,1) {3,5,4,7}
-[...#.] (0,2,3,4) (2,3) (0,4) (0,1,2) (1,2,3,4) {7,5,12,7,2}
-[.###.#] (0,1,2,3,4) (0,3,4) (0,1,2,4,5) (1,2) {10,11,11,5,10,5}
+svr: aaa bbb
+aaa: fft
+fft: ccc
+bbb: tty
+tty: ccc
+ccc: ddd eee
+ddd: hub
+hub: fff
+eee: dac
+dac: fff
+fff: ggg hhh
+ggg: out
+hhh: out
 """;
-        var input = Seeder.DayTen();
-        var partOne = DayTenSolutions.SolvePartTwo(input);
+        var input = Seeder.DayEleven();
+        var partOne = DayElevenSolutions.SolvePartTwo(input);
         System.Console.WriteLine(partOne);
     }
 }
